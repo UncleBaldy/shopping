@@ -1,7 +1,8 @@
 fetch("https://www.fredmeyer.com/atlas/v1/product/v2/products
-?filter.gtin13s=0088742200039
+?filter.gtin13s=0086533600006
 &filter.verified=true
-&filter.variantGroupIds=1578351396375391
+&filter.variantGroupIds=1578351416892650
+&filter.variantGroupIds=1578351396341065
 &projections=items.full%2CvariantGroupings.compact", {
   "headers": {
     "accept": "application/json, text/plain, */*",
@@ -14,8 +15,8 @@ fetch("https://www.fredmeyer.com/atlas/v1/product/v2/products
     "sec-fetch-site": "same-origin",
     "x-ab-test": "[]",
     "x-call-origin": "{\"component\":\"browse products\",\"page\":\"browse products\"}",
-    "x-dtpc": "41$487406441_844h172vSUCOPHULIQNFFMPESAFWCRHOJDURVRCE-0e0",
-    "x-dtreferer": "https://www.fredmeyer.com/pl/all/00?pzn=relevance&searchType=curated&fulfillment=all",
+    "x-dtpc": "41$487406441_844h179vSUCOPHULIQNFFMPESAFWCRHOJDURVRCE-0e0",
+    "x-dtreferer": "https://www.fredmeyer.com/pl/all/00?pzn=relevance&searchType=curated&fulfillment=ais",
     "x-kroger-channel": "WEB",
     "x-kroger-feature-use-v2-composite": "true",
     "x-laf-object": [
@@ -63,7 +64,7 @@ fetch("https://www.fredmeyer.com/atlas/v1/product/v2/products
     "x-modality": "{\"type\":\"IN_STORE\",\"locationId\":\"70100143\"}",
     "x-sec-clge-req-type": "ajax"
   },
-  "referrer": "https://www.fredmeyer.com/pl/all/00?pzn=relevance&searchType=curated&fulfillment=ais",
+  "referrer": "https://www.fredmeyer.com/pl/all/00?fulfillment=ais&pzn=relevance&searchType=curated&page=2",
   "referrerPolicy": "strict-origin-when-cross-origin",
   "body": null,
   "method": "GET",
