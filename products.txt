@@ -1,0 +1,78 @@
+fetch("https://www.fredmeyer.com/atlas/v1/product/v2/products
+?filter.gtin13s=0081565200418
+&filter.gtin13s=0086174500001
+&filter.gtin13s=0081565200214
+&filter.gtin13s=0086231500024
+&filter.gtin13s=0086174500002
+&filter.gtin13s=0002100006751
+&filter.verified=true
+&filter.variantGroupIds=1578351396375391
+&projections=items.full%2CvariantGroupings.compact", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "en-US,en;q=0.9",
+    "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"101\", \"Google Chrome\";v=\"101\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-ab-test": "[]",
+    "x-call-origin": "{\"component\":\"browse products\",\"page\":\"browse products\"}",
+    "x-dtpc": "41$487406441_844h67vNFUPLTKPHQSRKMPMMPFKKHFKUNUHOITJ-0e0",
+    "x-dtreferer": "https://www.fredmeyer.com/pl/furniture/31?pzn=relevance&searchType=curated&taxonomyId=31&fulfillment=ais",
+    "x-kroger-channel": "WEB",
+    "x-kroger-feature-use-v2-composite": "true",
+    "x-laf-object": [
+  {
+    "fallbackDestination": "70100143",
+    "createdDate": 1652287404939,
+    "destination": {
+      "address": {
+        "postalCode": "97123"
+      },
+      "location": {
+        "lat": 45.503013610839844,
+        "lng": -122.95194244384766
+      }
+    },
+    "id": "51384e85-d485-421f-8708-409e5d45b2e4",
+    "fallbackFulfillment": "310DC310",
+    "modalityType": "SHIP",
+    "source": "SHIP_AUTOGEN",
+    "fulfillment": [
+      "310DC310",
+      "491DC001",
+      "309DC309",
+      "DSV00001",
+      "MKTPLACE"
+    ],
+    "isTrustedSource": false
+  },
+  {
+    "fallbackFulfillment": "70100143",
+    "createdDate": 1652287404941,
+    "destination": {
+      "locationId": "70100143"
+    },
+    "id": "ccd21282-b42d-49e0-ac03-5d9b4bd4b552",
+    "isCrossBanner": false,
+    "modalityType": "IN_STORE",
+    "source": "FALLBACK_ACTIVE_MODALITY_COOKIE",
+    "fulfillment": [
+      "70100143"
+    ],
+    "isTrustedSource": false
+  }
+],
+    "x-modality": "{\"type\":\"IN_STORE\",\"locationId\":\"70100143\"}",
+    "x-sec-clge-req-type": "ajax"
+  },
+  "referrer": "https://www.fredmeyer.com/pl/all/00?pzn=relevance&searchType=curated&fulfillment=all",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+});
+
