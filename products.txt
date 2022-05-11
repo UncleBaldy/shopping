@@ -1,32 +1,33 @@
 fetch("https://www.fredmeyer.com/atlas/v1/product/v2/products
-?filter.gtin13s=0001111091193
-&filter.gtin13s=0000000004550
-&filter.gtin13s=0002840051631
-&filter.gtin13s=0000000094060
-&filter.gtin13s=0001111091151
-&filter.gtin13s=0003010010055
-&filter.gtin13s=0001111084961
-&filter.gtin13s=0001111072567
-&filter.gtin13s=0001376402705
-&filter.gtin13s=0003010078458
-&filter.gtin13s=0004400003111
-&filter.gtin13s=0000000004784
-&filter.gtin13s=0001111079542
-&filter.gtin13s=0004850001830
-&filter.gtin13s=0001111091687
-&filter.gtin13s=0004400000463
-&filter.gtin13s=0001111097209
-&filter.gtin13s=0004850020275
-&filter.gtin13s=0001111091011
-&filter.gtin13s=0001111042908
-&filter.gtin13s=0001111091068
-&filter.gtin13s=0001111091150
-&filter.gtin13s=0002500010000
-&filter.gtin13s=0005916550200
-&filter.gtin13s=0001111096959
-&filter.gtin13s=0001111085429
+?filter.gtin13s=0001111001812
+&filter.gtin13s=0004900002891
+&filter.gtin13s=0002410010685
+&filter.gtin13s=0007790011553
+&filter.gtin13s=0084013430120
+&filter.gtin13s=0001111089736
+&filter.gtin13s=0001600012479
+&filter.gtin13s=0004430010632
+&filter.gtin13s=0001111091621
+&filter.gtin13s=0000000094225
+&filter.gtin13s=0001111050074
+&filter.gtin13s=0001111045045
+&filter.gtin13s=0000000094053
+&filter.gtin13s=0005000032275
+&filter.gtin13s=0001111091661
+&filter.gtin13s=0020196600000
+&filter.gtin13s=0000000004017
+&filter.gtin13s=0001111097191
+&filter.gtin13s=0001111096970
+&filter.gtin13s=0002640022760
+&filter.gtin13s=0001111091651
+&filter.gtin13s=0000000094593
+&filter.gtin13s=0001111018189
+&filter.gtin13s=0001111097972
 &filter.verified=true
-&filter.variantGroupIds=1578351418183112
+&filter.variantGroupIds=1578351404473139
+&filter.variantGroupIds=1578351404612667
+&filter.variantGroupIds=1578351404553472
+&filter.variantGroupIds=1578351404593083
 &projections=items.full%2CvariantGroupings.compact", {
   "headers": {
     "accept": "application/json, text/plain, */*",
@@ -39,15 +40,15 @@ fetch("https://www.fredmeyer.com/atlas/v1/product/v2/products
     "sec-fetch-site": "same-origin",
     "x-ab-test": "[]",
     "x-call-origin": "{\"component\":\"browse products\",\"page\":\"browse products\"}",
-    "x-dtpc": "41$487406441_844h205vDKKDGTLDPTHWOHFLFUBFGKRELOALIFRM-0e0",
-    "x-dtreferer": "https://www.fredmeyer.com/pl/all/00?fulfillment=ais&page=4&pzn=relevance&searchType=curated",
+    "x-dtpc": "41$487406441_844h215vDKKDGTLDPTHWOHFLFUBFGKRELOALIFRM-0e0",
+    "x-dtreferer": "https://www.fredmeyer.com/pl/all/00?fulfillment=ais&page=5&pzn=relevance&searchType=curated",
     "x-kroger-channel": "WEB",
     "x-kroger-feature-use-v2-composite": "true",
     "x-laf-object": "[{\"fallbackDestination\":\"70100143\",\"createdDate\":1652287404939,\"destination\":{\"address\":{\"postalCode\":\"97123\"},\"location\":{\"lat\":45.503013610839844,\"lng\":-122.95194244384766}},\"id\":\"51384e85-d485-421f-8708-409e5d45b2e4\",\"fallbackFulfillment\":\"310DC310\",\"modalityType\":\"SHIP\",\"source\":\"SHIP_AUTOGEN\",\"fulfillment\":[\"310DC310\",\"491DC001\",\"309DC309\",\"DSV00001\",\"MKTPLACE\"],\"isTrustedSource\":false},{\"fallbackFulfillment\":\"70100143\",\"createdDate\":1652287404941,\"destination\":{\"locationId\":\"70100143\"},\"id\":\"ccd21282-b42d-49e0-ac03-5d9b4bd4b552\",\"isCrossBanner\":false,\"modalityType\":\"IN_STORE\",\"source\":\"FALLBACK_ACTIVE_MODALITY_COOKIE\",\"fulfillment\":[\"70100143\"],\"isTrustedSource\":false}]",
     "x-modality": "{\"type\":\"IN_STORE\",\"locationId\":\"70100143\"}",
     "x-sec-clge-req-type": "ajax"
   },
-  "referrer": "https://www.fredmeyer.com/pl/all/00?fulfillment=ais&page=5&pzn=relevance&searchType=curated",
+  "referrer": "https://www.fredmeyer.com/pl/all/00?fulfillment=ais&page=6&pzn=relevance&searchType=curated",
   "referrerPolicy": "strict-origin-when-cross-origin",
   "body": null,
   "method": "GET",
