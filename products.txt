@@ -1,10 +1,8 @@
 fetch("https://www.fredmeyer.com/atlas/v1/product/v2/products
-?filter.gtin13s=0081565200418
-&filter.gtin13s=0086174500001
-&filter.gtin13s=0081565200214
-&filter.gtin13s=0086231500024
-&filter.gtin13s=0086174500002
-&filter.gtin13s=0002100006751
+?filter.gtin13s=0088742200008
+&filter.gtin13s=0002100006752
+&filter.gtin13s=0019101100060
+&filter.gtin13s=0074275334741
 &filter.verified=true
 &filter.variantGroupIds=1578351396375391
 &projections=items.full%2CvariantGroupings.compact", {
@@ -19,8 +17,8 @@ fetch("https://www.fredmeyer.com/atlas/v1/product/v2/products
     "sec-fetch-site": "same-origin",
     "x-ab-test": "[]",
     "x-call-origin": "{\"component\":\"browse products\",\"page\":\"browse products\"}",
-    "x-dtpc": "41$487406441_844h67vNFUPLTKPHQSRKMPMMPFKKHFKUNUHOITJ-0e0",
-    "x-dtreferer": "https://www.fredmeyer.com/pl/furniture/31?pzn=relevance&searchType=curated&taxonomyId=31&fulfillment=ais",
+    "x-dtpc": "41$487406441_844h162vSUCOPHULIQNFFMPESAFWCRHOJDURVRCE-0e0",
+    "x-dtreferer": "https://www.fredmeyer.com/pl/furniture/31?pzn=relevance&searchType=curated&taxonomyId=31&fulfillment=all",
     "x-kroger-channel": "WEB",
     "x-kroger-feature-use-v2-composite": "true",
     "x-laf-object": [
@@ -75,4 +73,3 @@ fetch("https://www.fredmeyer.com/atlas/v1/product/v2/products
   "mode": "cors",
   "credentials": "include"
 });
-
